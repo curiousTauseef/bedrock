@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var rename = require('gulp-rename');
+var scsslint = require('gulp-scss-lint');
 
 var config = {
     scssPath: './scss/**/*.scss',
@@ -26,3 +27,7 @@ gulp.task('sass-prod', function () {
 gulp.task('watch', function () {
     gulp.watch(config.scssPath, ['sass-dev', 'sass-prod']);
 });
+gulp.task('test:sass', function () {
+    return gulp.src(config.scssPath)
+        .pipe(scsslint({'config': './scss/.scss-lint.yml'}));
+})

@@ -1,0 +1,12 @@
+dist: trusty
+language: node_js
+
+before_script:
+  - npm install
+
+script:
+  - npm test
+
+cache:
+  directories:
+    - node_modules
