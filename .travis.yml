@@ -1,0 +1,16 @@
+sudo: false
+dist: trusty
+language: node_js
+node_js:
+  - "4"
+  - "6"
+
+before_script:
+  - yarn install
+
+script:
+  - yarn test
+
+cache:
+  directories:
+    - node_modules

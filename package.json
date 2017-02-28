@@ -7,6 +7,17 @@
     "url": "git@github.com:liquidpineapple/bedrock",
     "type": "git"
   },
+  "scripts": {
+    "dev": "gulp watch",
+    "test": "gulp test:sass"
+  },
   "author": "Liquidpineapple",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-scss-lint": "^0.4.0",
+    "gulp-sourcemaps": "^2.4.1"
+  }
 }
