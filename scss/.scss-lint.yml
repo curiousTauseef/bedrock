@@ -37,7 +37,7 @@ linters:
   Comment:
     enabled: true
     exclude:
-      - bootstrap.scss
+      - bedrock.scss
     style: silent
 
   DebugStatement:

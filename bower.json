@@ -5,11 +5,12 @@
     "Liquidpineapple"
   ],
   "main": [
-    "scss/bootstrap.scss",
-    "dist/js/bootstrap.js"
+    "scss/bedrock.scss",
+    "dist/js/bedrock.js"
   ],
   "license": "MIT",
   "keywords": [
+    "bedrock",
     "bootstrap",
     "scss",
     "css",
