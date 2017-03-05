@@ -104,7 +104,7 @@ $pink:   #ff5b77 !default;
 $purple: #613d7c !default;
 
 // Create grayscale
-$gray-dark:                 #292b2c !default;
+$gray-dark:                 #333 !default;
 $gray:                      #464a4c !default;
 $gray-light:                #636c72 !default;
 $gray-lighter:              #eceeef !default;
@@ -123,8 +123,8 @@ $brand-inverse:             $gray-dark !default;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-rounded:            true !default;
-$enable-shadows:            false !default;
+$enable-rounded:            false !default;
+$enable-shadows:            true !default;
 $enable-gradients:          false !default;
 $enable-transitions:        true !default;
 $enable-hover-media-query:  false !default;
@@ -668,21 +668,21 @@ $jumbotron-bg:                   $gray-lighter !default;
 //
 // Define colors for form feedback states and, by default, alerts.
 
-$state-success-text:             #3c763d !default;
-$state-success-bg:               #dff0d8 !default;
+$state-success-text:             $white !default;
+$state-success-bg:               #27ae60 !default;
 $state-success-border:           darken($state-success-bg, 5%) !default;
 
-$state-info-text:                #31708f !default;
-$state-info-bg:                  #d9edf7 !default;
+$state-info-text:                $white !default;
+$state-info-bg:                  #2980b9 !default;
 $state-info-border:              darken($state-info-bg, 7%) !default;
 
-$state-warning-text:             #8a6d3b !default;
-$state-warning-bg:               #fcf8e3 !default;
+$state-warning-text:             $white !default;
+$state-warning-bg:               #f39c12 !default;
 $mark-bg:                        $state-warning-bg !default;
 $state-warning-border:           darken($state-warning-bg, 5%) !default;
 
-$state-danger-text:              #a94442 !default;
-$state-danger-bg:                #f2dede !default;
+$state-danger-text:              $white !default;
+$state-danger-bg:                #c0392b !default;
 $state-danger-border:            darken($state-danger-bg, 5%) !default;
 
 
@@ -918,8 +918,8 @@ $carousel-transition:           transform .6s ease-in-out !default;
 
 $close-font-size:             $font-size-base * 1.5 !default;
 $close-font-weight:           $font-weight-bold !default;
-$close-color:                 $black !default;
-$close-text-shadow:           0 1px 0 $white !default;
+$close-color:                 $gray-dark !default;
+$close-text-shadow:           0 1px 0 $black !default;
 
 // Code
 
