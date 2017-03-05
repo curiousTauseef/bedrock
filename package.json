@@ -1,6 +1,6 @@
 {
   "name": "lqp-bedrock",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A Bootstrap 4 theme",
   "style": "dist/css/bedrock.css",
   "sass": "scss/bedrock.scss",
