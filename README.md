@@ -1,5 +1,5 @@
 <a href="https://liquidpineapple.net" target="_blank">
-  <img src="http://i.imgur.com/BM4dyoN.png" alt="liquidpineapple.net" height="250px" />
+  <img src="http://i.imgur.com/BM4dyoN.png" alt="liquidpineapple.net" />
 </a>
 
 # Bedrock
