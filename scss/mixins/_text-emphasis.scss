@@ -1,8 +1,9 @@
 // Typography
 
-@mixin text-emphasis-variant($parent, $color) {
+@mixin text-emphasis-variant($parent, $color, $weight:$font-weight-normal) {
   #{$parent} {
     color: $color !important;
+    font-weight: $weight;
   }
   a#{$parent} {
     @include hover-focus {
