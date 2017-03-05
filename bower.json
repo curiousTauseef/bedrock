@@ -1,0 +1,28 @@
+{
+  "name": "lqp-bedrock",
+  "description": "A Bootstrap 4 theme",
+  "authors": [
+    "Liquidpineapple"
+  ],
+  "main": [
+    "scss/bootstrap.scss",
+    "dist/js/bootstrap.js"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bootstrap",
+    "scss",
+    "css",
+    "sass",
+    "framework",
+    "liquidpineapple"
+  ],
+  "homepage": "https://github.com/liquidpineapple/bedrock",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

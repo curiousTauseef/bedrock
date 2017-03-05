@@ -1,8 +1,18 @@
 {
-  "name": "Bedrock",
-  "version": "1.0.0",
-  "description": "A bootstrap theme",
-  "main": "index.js",
+  "name": "lqp-bedrock",
+  "version": "1.0.0-alpha",
+  "description": "A Bootstrap 4 theme",
+  "style": "dist/css/bootstrap.css",
+  "sass": "scss/bootstrap.scss",
+  "main": "dist/js/bootstrap",
+  "keywords": [
+    "bootstrap",
+    "scss",
+    "css",
+    "sass",
+    "framework",
+    "liquidpineapple"
+    ],
   "repository": {
     "url": "git@github.com:liquidpineapple/bedrock",
     "type": "git"
@@ -14,6 +24,10 @@
   "author": "Liquidpineapple",
   "license": "MIT",
   "dependencies": {
+    "jquery": ">=1.9.1",
+    "tether": "^1.4.0"
+  },
+  "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
