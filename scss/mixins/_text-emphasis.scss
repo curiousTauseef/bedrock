@@ -1,7 +1,8 @@
 // Typography
 
-@mixin text-emphasis-variant($parent, $color) {
+@mixin text-emphasis-variant($parent, $color, $weight:$font-weight-normal) {
   #{$parent} {
+    font-weight: $weight;
     color: $color !important;
   }
   a#{$parent} {

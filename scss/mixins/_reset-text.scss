@@ -1,3 +1,5 @@
+// scss-lint:disable DuplicateProperty
+
 @mixin reset-text {
   font-family: $font-family-base;
   // We deliberately do NOT reset font-size or word-wrap.
@@ -6,7 +8,8 @@
   letter-spacing: normal;
   line-break: auto;
   line-height: $line-height-base;
-  text-align: left;
+  text-align: left; // fallback for when start is not supported.
+  text-align: start;
   text-decoration: none;
   text-shadow: none;
   text-transform: none;
