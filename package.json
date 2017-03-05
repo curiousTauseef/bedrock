@@ -1,6 +1,6 @@
 {
   "name": "lqp-bedrock",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A Bootstrap 4 theme",
   "style": "dist/css/bedrock.css",
   "sass": "scss/bedrock.scss",
@@ -13,7 +13,7 @@
     "sass",
     "framework",
     "liquidpineapple"
-    ],
+  ],
   "repository": {
     "url": "git@github.com:liquidpineapple/bedrock",
     "type": "git"
