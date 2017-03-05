@@ -8,6 +8,7 @@
   flex-direction: column;
   background-color: $card-bg;
   border: $card-border-width solid $card-border-color;
+  border-bottom: $card-border-width * 3 solid $card-border-color;
   @include border-radius($card-border-radius);
 }
 

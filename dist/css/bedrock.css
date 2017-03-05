@@ -2,6 +2,7 @@
  * LIQUIDPINEAPPLE BEDROCK - A bootstrap 4 theme
  * Built on: Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
 @media print {
   *,
   *::before,
@@ -72,7 +73,7 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -325,9 +326,9 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.1;
-  color: inherit; }
+  color: #c44; }
 
 h1, .h1 {
   font-size: 2.5rem; }
@@ -2753,7 +2754,8 @@ tbody.collapse.show {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125); }
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.125); }
 
 .card-block {
   flex: 1 1 auto;
@@ -2833,27 +2835,33 @@ tbody.collapse.show {
 
 .card-outline-primary {
   background-color: transparent;
-  border-color: #333; }
+  border-color: #333;
+  border-bottom-width: 1px; }
 
 .card-outline-secondary {
   background-color: transparent;
-  border-color: #e1e1e1; }
+  border-color: #e1e1e1;
+  border-bottom-width: 1px; }
 
 .card-outline-info {
   background-color: transparent;
-  border-color: #3498db; }
+  border-color: #3498db;
+  border-bottom-width: 1px; }
 
 .card-outline-success {
   background-color: transparent;
-  border-color: #2ecc71; }
+  border-color: #2ecc71;
+  border-bottom-width: 1px; }
 
 .card-outline-warning {
   background-color: transparent;
-  border-color: #f39c12; }
+  border-color: #f39c12;
+  border-bottom-width: 1px; }
 
 .card-outline-danger {
   background-color: transparent;
-  border-color: #e74c3c; }
+  border-color: #e74c3c;
+  border-bottom-width: 1px; }
 
 .card-inverse {
   color: rgba(255, 255, 255, 0.65); }
@@ -3426,7 +3434,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3507,7 +3515,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
